@@ -1,0 +1,163 @@
+/* Reset CSS
+ * ---------------Dantyli------------------------ */
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+table {
+	border-spacing: 0;
+}
+
+fieldset,
+img {
+	border: 0;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+	font-weight: normal;
+	font-style: normal;
+}
+
+strong {
+	font-weight: bold;
+}
+
+ol,
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+caption,
+th {
+	text-align: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: normal;
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+	color: #444;
+}
+
+q:before,
+q:after {
+	content: '';
+}
+
+abbr,
+acronym {
+	border: 0;
+}
+
+
+/*calendar部分*/
+
+.fr {
+	float: right;
+}
+
+.fl {
+	float: left;
+}
+
+.wrap {
+	width: 560px;
+	margin: 100px auto;
+}
+
+.calTitle {
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid #EEEEEE;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.calTitle span {
+	display: inline-block;
+	height: 30px;
+	background: #1ABC9C;
+	cursor: pointer;
+}
+
+.calendarCon {
+	width: 100%;
+}
+
+.calendarCon li {
+	width: 14.28%;
+	display: inline-block;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	float: left;
+	cursor: pointer;
+}
+
+.calendarCon .calDisable {
+	color: #E2E2E2;
+	cursor: not-allowed;
+}
+
+.calendarCon .current {
+	background: #1ABC9C;
+}
+
+.week {
+	height: 20px;
+	line-height: 20px;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.week span {
+	display: inline-block;
+	width: 14.28%;
+	text-align: center;
+	float: left;
+}
