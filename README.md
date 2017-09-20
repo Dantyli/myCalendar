@@ -1,7 +1,7 @@
 日历插件<br>
 使用方法如下<br>
 $('.calendarCon').calendar({<br>
-    selectDate: new Date(), //默认选中日期<br>
+ &bnsp;   selectDate: new Date(), //默认选中日期<br>
     nowMonth: '.calNow', //月份展示<br>
     nextMonth: '.calnext', //下月绑定<br>
     preMonth: '.calpre', //上月绑定<br>
